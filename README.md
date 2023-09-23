@@ -1,7 +1,9 @@
-City Search API
-===============
 
-This API provides a search functionality for city names based on a provided query.
+```
+Chanks-JSON
+===========
+
+📂 A project for alphabetically chunking JSON files.
 
 Getting Started
 ---------------
@@ -19,66 +21,40 @@ Installing
 
 1. Clone the repository to your local machine:
 
-\`\`\`
-git clone https://github.com/your-username/city-search-api.git
-\`\`\`
+   ```
+   git clone https://github.com/your-username/Chanks-JSON.git
+   ```
 
 2. Install the required dependencies:
 
-\`\`\`
-cd city-search-api
-npm install
-\`\`\`
+   ```
+   cd Chanks-JSON
+   npm install
+   ```
 
-Running the API
----------------
+Running the Script
+------------------
 
-To start the API, run the following command:
+To start the script, run the following command:
 
-\`\`\`
+```
 npm start
-\`\`\`
+```
 
-The API will now be accessible at \`http://localhost:3000\`.
+The script will now alphabetically chunk the JSON data.
 
 Usage
 -----
 
-Searching for Cities
----------------------
+The script will automatically read data from `data.json` and chunk it based on the first letter of each city name.
 
-Send a POST request to \`/api/search\` with a JSON payload containing the \`query\` parameter.
+Icons
+-----
 
-Example:
-
-\`\`\`json
-{
-  "query": "example city"
-}
-\`\`\`
-
-Response
---------
-
-The API will respond with a JSON array containing the matching cities.
-
-Example:
-
-\`\`\`json
-[
-  {
-    "id": 1,
-    "postalcode": "12345",
-    "city": "Example City",
-    "voivodeship": "Example Voivodeship",
-    "county": "Example County",
-    "community": "Example Community",
-    "latitude": 12.345678,
-    "longitude": 23.456789
-  },
-  // Additional matching cities...
-]
-\`\`\`
+📂 - Directory
+🚀 - Start
+💡 - Idea
+🔍 - Search
 
 Contributing
 ------------
@@ -89,4 +65,6 @@ License
 -------
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
 
+Feel free to use this text for your project! Let me know if there's anything else I can assist you with.
