@@ -46,13 +46,7 @@ Usage
 
 The script will automatically read data from `data.json` and chunk it based on the first letter of each city name.
 
-Icons
------
 
-📂 - Directory
-🚀 - Start
-💡 - Idea
-🔍 - Search
 
 Contributing
 ------------
