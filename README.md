@@ -1,4 +1,4 @@
-Chanks-JSON
+Chunks-JSON
 ===========
 
 📂 A project for alphabetically chunking JSON files.
